@@ -1,4 +1,4 @@
-.block, #demo ,#example, .block2    {
+.block, #demo ,#example, .block2 ,.box   {
     background-color: antiquewhite;
     border-radius: 15px;
     padding: 10px;
