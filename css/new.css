@@ -1,0 +1,25 @@
+.block, #demo ,#example, .block2    {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 15px;
+    width: 300px;
+    float: left;
+}
+#out
+{   float: left;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    width: 600px;
+    padding: 20px;
+}
+.tutorial
+{
+    width: 200px;
+    height: 200px;padding: 20px;
+    border-radius: 15px;
+    background-color: cadetblue;
+    float: left;
+    margin-left: 15px;
+}
