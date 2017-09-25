@@ -1,10 +1,11 @@
-.block, #demo ,#example, .block2 ,.box   {
+.block, #demo,#bar,#example, .block2, .box    {
     background-color: antiquewhite;
     border-radius: 15px;
     padding: 10px;
     margin-left: 15px;
     width: 300px;
     float: left;
+    margin-top: 15px;
 }
 #out
 {   float: left;
@@ -22,4 +23,5 @@
     background-color: cadetblue;
     float: left;
     margin-left: 15px;
+    height: 300px;
 }

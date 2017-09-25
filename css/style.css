@@ -1,0 +1,40 @@
+#lolem,#lol2
+{
+    width: 300px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    margin-left: 15px;
+   
+}
+#girl
+{   border-radius: 50%;
+    width: 300px;
+}
+.girl
+{  float: left;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+   
+    width: 300px;
+     margin-left: 20px;
+}
+#dom
+{   float: left;
+    width: 300px;
+     margin-left: 20px;
+     background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+#lol:hover{
+     background-color:aliceblue;
+}
+.girl:hover{
+     background-color:aliceblue;
+}
+#dom:hover{
+     background-color:aliceblue;
+}
