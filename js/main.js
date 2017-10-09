@@ -1,36 +1,37 @@
-//HOMEWORK VERSION 1
-function findm(param1) {
-    var len, name, n;
-    var param1, one, two;
-    len = param1.length;
-    name = param1.slice(1, len);
-    console.log(name);
-    two = document.getElementById('out');
-    /*FIND BY CLASSNAME*/
-    if (param1[0] == '.') {
-        one = document.getElementsByClassName(name);
-        n = document.getElementsByClassName(name).length;
-        console.log(n);
-        for (i = 0; i < n; i++) {
-            two.innerHTML += one[i].innerText + '<hr><br> ';
-            console.log(one[i].innerHTML);
-            one[i].style.backgroundColor="orange"; 
-            one[i].innerHTML = 'I find it';
-        }
+var name,age;
+function compare(){
+	name = document.getElementById("name2").value;
 
+	document.getElementById('nameb').style.opacity = '0';
+	document.getElementById('nameb').style.visibility = 'hidden';
+	document.getElementById('nameb').style.height = '0px';
+	document.getElementById('ageb').style.visibility = "visible";
+	document.getElementById('ageb').style.opacity = "1";
+	document.getElementById("age2").autofocus;
 
-    }
-    /*FIND BY ID*/
-    else if (param1[0] == '#') {
-        one = document.getElementById(name);
-        console.log('Id');
-        console.log(one.innerHTML);
-        two.innerHTML = one.innerText + '<hr><br> ';
-        one.innerHTML = 'I find it';
-        document.getElementById(name).style.backgroundColor = "orange";
-    }
+	}
 
+	function compare2() {
+		var a;
 
-}
-// VERSION 2 SHOULD WORK WITH
-//findm('#example, .example2, .example');
+		age = document.getElementById("age2").value;
+		console.log(name);
+		console.log(age);
+		document.getElementById("ageb").style.opacity = "0";
+		document.getElementById("ageb").style.height = "0px";
+		document.getElementById("result").style.opacity = "1";
+		if (age == 18) {
+			document.getElementById("text").innerHTML = name + " ви повнолітній";
+		} else if (age < 18) {
+			a = 18 - age;
+			console.log(a);
+			document.getElementById("text").innerHTML = name + " ви неповнолітній";
+			document.getElementById("text2").innerHTML = "До повноліття залишилось " + a + " років";
+		} else if (age > 18) {
+			a = age - 18;
+			document.getElementById("text").innerHTML = name + " ви повнолітній";
+			document.getElementById("text2").innerHTML = "Від моменту повноліття пройшло " + a + " років";
+		} else {
+			document.getElementById("text").innerHTML = "Введена вами інформація некоректна"
+		}
+	}

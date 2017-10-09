@@ -1,40 +1,69 @@
-#lolem,#lol2
-{
-    width: 300px;
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 10px;
-    float: left;
-    margin-left: 15px;
-   
+* {
+	margin: 0;
+	padding: 0;
 }
-#girl
-{   border-radius: 50%;
-    width: 300px;
+
+body {
+	background-color: bisque;
+	margin: 0 auto;
 }
-.girl
-{  float: left;
-    background-color: antiquewhite;
-    padding: 10px;
-    border-radius: 10px;
-   
-    width: 300px;
-     margin-left: 20px;
+
+.info {
+	border: 0px solid red;
+	width: 300px;
+	position: absolute;
+	left: 40%;
+	top: 25%;
 }
-#dom
-{   float: left;
-    width: 300px;
-     margin-left: 20px;
-     background-color: antiquewhite;
-    padding: 10px;
-    border-radius: 10px;
+
+.submit {
+	width: 25px;
 }
-#lol:hover{
-     background-color:aliceblue;
+
+.age {
+	width: 150px;
 }
-.girl:hover{
-     background-color:aliceblue;
+
+.name {
+	width: 150x;
 }
-#dom:hover{
-     background-color:aliceblue;
+
+#ageb {
+	opacity: 0;
+	visibility: hidden;
+	
+}
+
+.name-user {
+	margin-bottom: 10px;
+}
+
+#nameb {
+	opacity: 1;
+	visibility: visible;
+	
+}
+
+.age-user {
+	margin-bottom: 10px;
+}
+
+#result {
+	opacity: 0;
+	
+}
+#ageb, #nameb, #result {
+	width: 250px;
+	height: 150px;
+	background: linear-gradient(to top, gray, lightgray);
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 40px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-size: 16px;
+	color: aliceblue;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	transition: all 1s ease-out 0.5s;
 }
