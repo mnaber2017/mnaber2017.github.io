@@ -14,10 +14,11 @@ body {
 	position: absolute;
 	left: 40%;
 	top: 25%;
+	height: 0;
 }
 
 .submit {
-	width: 25px;
+	width: 30px;
 }
 
 .age {
@@ -66,4 +67,8 @@ body {
 	font-weight: bold;
 	text-shadow: 1px 1px black;
 	transition: all 1s ease-out 0.5s;
+}
+.submit::-moz-focus-inner {
+    padding: 0;
+    border: 0
 }

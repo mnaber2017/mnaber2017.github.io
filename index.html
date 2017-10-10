@@ -2,21 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Homework</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	
 </head>
 <body>
 <div class="info">
    	<div id="nameb">
+	  
 	<p class="name-user">ВВЕДІТЬ ВАШЕ ІМ'Я</p>
-	<input type="text" class="name" id="name2" placeholder="введіть ваше ім'я" autofocus><button class="submit" id="next" onclick="compare()">OK</button>
+	<input type="text" class="name" id="name2" placeholder="введіть ваше ім'я" ><button class="submit" id="next" onclick="compare()" value=" ">OK</button>
+  
 	</div>
 	 <div id="ageb">
 	 <p class="age-user">ВВЕДІТЬ ВАШ ВІК</p>
-	<input type="text" class="age" id="age2" placeholder="ваш вік" autofocus><button class="submit" id="next2" onclick="compare2()">ОK</button>
+	<input type="text" class="age" id="age2" placeholder="ваш вік" autofocus><button class="submit" id="next2" onclick="compare2()" value=" ">ОK</button>
 	</div>
-	<div id="result">
+	<div id="result" onclick="window-location.reload()">
 		ПОВІДОМЛЕННЯ<br>
 		<p id="text"></p>
 		<p id="text2"> </p>
