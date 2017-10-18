@@ -1,5 +1,14 @@
 var name, age;
-
+function addBlock() {
+	var block=document.createElement('div');
+	block.className="inner";
+	 block.style.opacity="1";
+	 
+	
+	block.innerHTML='Some content';
+    document.getElementById("result").appendChild(block);
+}
+ 
 function compare() {
 	name = document.getElementById("name2").value;
 	
@@ -36,6 +45,12 @@ function animationBlock3 () {
 	document.getElementById("ageb").style.height = "0px";
 	document.getElementById("result").style.opacity = "1";
 }
+
+ 
+
+
+
+
 function compare2() {
 	var a;
 
@@ -44,6 +59,10 @@ function compare2() {
 
 	if (age == 18) {
 		document.getElementById("text").innerHTML = name + " ви повнолітній";
+		addBlock();
+		
+		
+		
 	} else if (age < 18 && age >= 0) {
 		a = 18 - age;
 
@@ -53,6 +72,10 @@ function compare2() {
 		a = age - 18;
 		document.getElementById("text").innerHTML = name + " ви повнолітній";
 		document.getElementById("text2").innerHTML = "Від моменту повноліття пройшло " + a + " років";
+		addBlock();
+		
+		
+		
 	} else if (age < 0) {
 		document.getElementById("text").innerHTML = name + " введена інформація некоректна";
 

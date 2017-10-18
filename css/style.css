@@ -51,6 +51,7 @@ body {
 
 #result {
 	opacity: 0;
+	height: auto;
 	
 }
 #ageb, #nameb, #result {
@@ -70,5 +71,23 @@ body {
 }
 .submit::-moz-focus-inner {
     padding: 0;
-    border: 0
+    border: 0;
+}
+.inner {
+	opacity: 0;
+	height: 200px;
+	width: 300px;
+    margin-top: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	color: aliceblue;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	font-size: 16px;
+	padding: 25px;
+	background: linear-gradient(to top, gray, lightgray);
+	position: relative;
+	 left: -21%;
+	top: 55%;
+	transition: all 1s ease-out 0.5s;
 }
