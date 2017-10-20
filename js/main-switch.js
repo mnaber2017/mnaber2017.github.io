@@ -9,16 +9,18 @@ function addBlock() {
  /*--------------CHECK-NAME------------------*/
 function compare() {
 	name = document.getElementById("name2").value;
-	
-	if (!name=='' && isFinite(name)!=true )
-		{
+ 
+	switch(true){
+		case name!=''  && isFinite(name)!=true:
 			animationBlock1();
-		}
-	 else if(isFinite(name)==true || name==undefined ) {
+			break;
+				
+	 
+		case isFinite(name)==true || name==undefined :
 		 animationBlock3();
 		 document.getElementById("text").innerHTML = "Введена вами інформація некоректна"
-	 }
-
+	     break;
+}
 }
 /*--------------------------------------------*/
 
@@ -57,31 +59,34 @@ function compare2() {
 
 	age = document.getElementById("age2").value;
     animationBlock2();
-
-	if (age == 18) {
+    switch(true){
+		case age == 18:
 		document.getElementById("text").innerHTML = name + " ви повнолітній";
 		addBlock();
+		break;
 		
 		
-		
-	} else if (age < 18 && age >= 0) {
+		case age < 18 && age >= 0:
 		a = 18 - age;
-
 		document.getElementById("text").innerHTML = name + " ви неповнолітній";
 		document.getElementById("text2").innerHTML = "До повноліття залишилось " + a + " років";
-	} else if (age > 18) {
+	    break;
+			
+		case age > 18:
 		a = age - 18;
 		document.getElementById("text").innerHTML = name + " ви повнолітній";
 		document.getElementById("text2").innerHTML = "Від моменту повноліття пройшло " + a + " років";
 		addBlock();
+		break;
 		
 		
 		
-	} else if (age < 0) {
+		case age < 0:
 		document.getElementById("text").innerHTML = name + " введена інформація некоректна";
+		break;
 
-	} else {
+		default:
 		document.getElementById("text").innerHTML = "Введена вами інформація некоректна"
-	}
-
+	    break;
+}
 }
