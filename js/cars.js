@@ -32,21 +32,21 @@
 	}
 	]
     }
- 
+window.onload = writeCars; 
 var carGlobal= [];
 /*------------------WRITE CARS IN LOCAL STORAGE - JSON-----------------*/
 function writeCars(){
 	myJSON=JSON.stringify(cars);
 	localStorage.setItem("myCars",myJSON);
 }
-window.onload = writeCars;
+
 
 /*-------------------ADD DATA FROM ARRAY -->CARS.INFO IN DOM--------------------------*/
 
 	
 	
 	
- 
+ window.onload = carsOut;
 /*----------------OUTPUT CARS INFO---------------------*/	
 function carsOut(){
     getCar=localStorage.getItem("myCars");
@@ -60,7 +60,7 @@ function carsOut(){
 	console.log(carGlobal[j]);
 }
 
-window.onload = carsOut;
+
 
 
 function addBlock(carN) {
