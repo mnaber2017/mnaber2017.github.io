@@ -39,7 +39,9 @@ function writeCars(){
 	myJSON=JSON.stringify(cars);
 	localStorage.setItem("myCars",myJSON);
 }
-window.onload=writeCars;
+window.onload = writeCars;
+
+/*-------------------ADD DATA FROM ARRAY -->CARS.INFO IN DOM--------------------------*/
 
 	
 	
@@ -58,10 +60,9 @@ function carsOut(){
 	console.log(carGlobal[j]);
 }
 
-window.onload=carsOut;
+window.onload = carsOut;
 
 
-/*-------------------ADD DATA FROM ARRAY -->CARS.INFO IN DOM--------------------------*/
 function addBlock(carN) {
 	
 	var dataCar=[];
@@ -78,6 +79,7 @@ function addBlock(carN) {
 	carGlobal.push(dataCar);
 	
 }
+
 
 
 
