@@ -1,7 +1,7 @@
 var xmlhttp = new XMLHttpRequest();
 var item, href, topic;
 var sidebar = [];
-var template = '<li><a href="#" onclick="clearUrl()">Item</a><ul>##</ul></li>';
+var template = '<li><a href="#" >Item</a><ul>##</ul></li>';
 var template_sub = '<li><a href="#">Item</a></li>';
 var sidebar_sub = [];
 xmlhttp.onloadend = function () {
