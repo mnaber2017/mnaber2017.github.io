@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY-CALCULATOR</title>
+      <link rel="stylesheet" href="css/styleMain.css">
+  <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/style-calc.css">
+  
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="js/nav.js"></script>
+    
+</head>
+
+<body>
+   
+
+	<div id="sidebar">
+	 <div id="title">HOMEWORKS</div>
+		<ul id="myNav">
+        <li><a href="#">All Items</a>
+          <ul>
+          	<li><a href="#">Item 1</a></li>
+          	<li><a href="#">Item 2</a></li>
+          	<li><a href="#">Item 3</a></li>
+          	<li><a href="#">Item 4</a></li>
+          </ul>
+        </li>
+        </ul>
+   
+	 </div>
+    <div class="wrap">
+       
+        <form action="" name="cal" >
+            <p class="calc">MyCalculator</p>
+            <div class="keyboard">
+                <input type="text" name="input" class="text dis" autofocus><br>
+                <input type="button" name="one" value="1" class="but" OnClick="cal.input.value += '1'">
+                <input type="button" name="two" value="2" class="but" OnClick="cal.input.value += '2'">
+                <input type="button" name="three" value="3" class="but" OnClick="cal.input.value += '3'">
+                <input type="button" name="sub" value="-" class="but" OnClick="cal.input.value += '-'">
+                <input type="button" name="four"  class="but " value="4" OnClick="cal.input.value += '4'">
+               <input type="button" name="five"  class="but " value="5" OnClick="cal.input.value += '5'">
+               <input type="button" name="six"  class="but " value="6" OnClick="cal.input.value += '6'">
+              <input type="button" name="mul"  class="but " value="*" OnClick="cal.input.value += '*'">
+                <input type="button" name="seven"  class="but " value="7" OnClick="cal.input.value += '7'">
+                 <input type="button" name="eight"  class="but " value="8" OnClick="cal.input.value += '8'">
+                  <input type="button" name="nine"  class="but " value="9" OnClick="cal.input.value += '9'">
+                 <input type="button" name="div"  class="but " value="/" OnClick="cal.input.value += '/'">
+              <input type="button" name="zero"  class="but " value="0" OnClick="cal.input.value += '0'">
+             <input type="button" name="doit" value="=" OnClick="cal.input.value = eval(cal.input.value)" class="but">
+               <input type="button" name="clear" value="c" OnClick="cal.input.value = ''" class="but">
+               <input type="button" name="sum"  class="but " value="+" OnClick="cal.input.value += '+'">
+            </div>
+        </form>
+    </div>
+     <script src="js/mine.js"></script>
+</body>
+</html>

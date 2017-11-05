@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework IndexOfAll Recursive</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/styleMain.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/indexOfAllRecursive.js"></script>
+	<script src="js/nav.js"></script>
+	
+</head>
+<body>
+<div id="sidebar">
+	 <div id="title">HOMEWORKS</div>
+		<ul id="myNav">
+        <li><a href="#">All Items</a>
+          <ul>
+          	<li><a href="#">Item 1</a></li>
+          	<li><a href="#">Item 2</a></li>
+          	<li><a href="#">Item 3</a></li>
+          	<li><a href="#">Item 4</a></li>
+          </ul>
+        </li>
+        </ul>
+
+	 </div>
+	
+		
+	<div id="input-block">
+	<p class="title-block">Enter some text</p>
+		<input type="text" id="text-block" placeholder="please enter the text" autofocus >
+	    <button id="done" onclick="inputData()">OK</button>
+	</div>
+	 
+	<div id="input-block2">
+	<p class="title-block2">Enter the fragment you are looking for</p>
+		<input type="text" id="text-block2" placeholder="please enter the text"  >
+	    <button id="done" onclick="inputDataFrag()">OK</button>
+	</div>
+	<div id="result_block">
+	<p class="title-block3">Item number of fragment</p>
+		<p id="result-b"></p>
+		<button id="res_but" onclick="resetAll()" >Reset</button>
+	</div>
+	
+	
+	
+<script src="js/mine.js"></script>
+</body>
+</html>

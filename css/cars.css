@@ -1,0 +1,93 @@
+body{
+	background-color:beige;
+}
+.car{
+	width: 400px;
+	font-size: 22px;
+	font-family: cursive;
+	margin: 0 auto;
+	border:1px solid black;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 30px;
+	background-color: ghostwhite;
+	
+}
+.infoCar {
+	margin: 0 auto;
+	font-size: 22px;
+	font-family: cursive;
+	position: relative;
+	left: 42%;
+	top: -20px;
+}
+#addCar {
+     
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+}
+.newCar{
+	width: 230px;
+	margin-right: 5px;
+	position: absolute;
+	left: 30%;
+}
+#addNewCar{
+	position: absolute;
+	
+	right: 0;
+ 
+}
+#sorting_list {
+	position: absolute;
+	left: 0;
+	height: 21px;
+	
+	
+}
+#sorting-list{
+	height: auto;
+	position: absolute;
+	border: 1px solid lightgray;
+	background-color:white;
+	left: -4px;
+	//display: none;
+	width: 110px;
+	top: 19px;  
+	display: none;
+	 
+}
+#sort{
+	position: absolute;
+	left: -1%;
+	line-height: 19px;
+	width: 110px;
+	text-align: center;
+	border: 1px solid lightgray;
+	background-color: white;
+	cursor: pointer;
+}
+#sorting-list>li{
+	list-style-type: none;
+ 
+	position: relative;
+	text-align: left;
+	left: 0px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	line-height: 20px;
+	width: 110px;
+	cursor: pointer;
+	transition: all 0.1s ease-out 0.07s;
+}
+#sorting-list>li:hover{
+	background-color: antiquewhite;
+	text-decoration: underline;
+}
+.carss{
+	position: absolute;
+	left: 500px;
+	top: 100px;
+}

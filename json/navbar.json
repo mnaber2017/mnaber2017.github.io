@@ -1,0 +1,84 @@
+{
+  	 "Javascript Base" : [ 
+		     
+  		{
+  			 "href" : "index.html?homework=Homework(if-else)",
+  			 "title" : "Homework <br>(if else)"
+	   },
+  		{
+  			 "href" : "index-switch.html?homework=Homework(switch)",
+  			 "title" : "Homework <br>(switch)"
+	   },
+  		{
+  			 "href" : "index-calc.html?homework=Homework(calc)",
+  			 "title" : "Homework<br>(calc)"
+	   },
+  		{
+  			 "href" : "index-indexOfAll.html?homework=Homework(IndexOfAll)",
+  			 "title" : "Homework<br>(indexOf All)"
+	   },
+  		{
+  			 "href" : "cars.html?homework=Homework(AddNewCar)",
+  			 "title" : "Homework<br>(addNewCar)"
+
+		},
+	    	{
+  			 "href" : "recursive.html?homework=Homework(IndexOfRec)",
+  			 "title" : "Homework<br>(indexOfRec)"
+
+		}
+	],
+	"JavaScript Advansed" : [ 
+		     
+  		{
+  			 "href" : "browser-size.html?homework=Homework(BrowserSize)",
+  			 "title" : "Homework <br> (BrowserSize)"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "Homework 2"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "Homework 3"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "Homework 4"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "Homework 5"
+
+		}
+			  
+			 
+	],
+		"Other homeworks" : [ 
+		     
+  		{
+  			 "href" : "#",
+  			 "title" : "homework1"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "homework2"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "honework3"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "homework4"
+	   },
+  		{
+  			 "href" : "#",
+  			 "title" : "homework5"
+
+		}
+			  
+			 
+	] 
+	
+  }

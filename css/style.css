@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	background-color:  #EFEFEF;
+}
+
+.info {
+	border: 0px solid red;
+	width: 300px;
+	position: absolute;
+	left: 500px;
+	top: 220px;
+	height: 0;
+}
+.info2 {
+	border: 0px solid red;
+	width: 300px;
+	position: absolute;
+	left: 635px;
+	top: 220px;
+	height: 0;
+}
+
+.submit {
+	width: 30px;
+}
+
+.age {
+	width: 150px;
+}
+
+.name {
+	width: 150x;
+}
+
+#ageb {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.name-user {
+	margin-bottom: 10px;
+}
+
+#nameb {
+	opacity: 1;
+	visibility: visible;
+}
+
+.age-user {
+	margin-bottom: 10px;
+}
+
+#result {
+	opacity: 0;
+	height: auto;
+}
+
+#ageb,
+#nameb,
+#result {
+	width: 250px;
+	height: 150px;
+	background: linear-gradient(to top, gray, lightgray);
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 40px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	font-size: 16px;
+	color: aliceblue;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	transition: all 1s ease-out 0.5s;
+}
+
+.submit::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+.inner {
+	opacity: 0;
+	height: 200px;
+	width: 300px;
+	margin-top: 30px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	color: aliceblue;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+	font-size: 16px;
+	padding: 25px;
+	background: linear-gradient(to top, gray, lightgray);
+	position: relative;
+	left: -21%;
+	top: 55%;
+	transition: all 1s ease-out 0.5s;
+}
+
+#input-block {
+	opacity: 1;
+	visibility: visible;
+}
+
+#input-block2 {
+	opacity: 0;
+	visibility: hidden;
+}
+
+#input-block,
+#input-block2,
+#result_block {
+	background: linear-gradient(to top, gray, lightgray);
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 600px;
+	top: 25%;
+	border-radius: 10px;
+	border: 1px solid gray;
+	transition: all 0.8s ease-out 0.3s;
+}
+
+#result_block {
+	opacity: 0;
+	visibility: hidden;
+}
+
+#text-block,
+#text-block2 {
+	position: relative;
+	margin-top: 25%;
+	margin-left: 18%;
+}
+
+#text-block2 {
+	margin-top: 28%;
+}
+
+.title-block,
+.title-block2,
+.title-block3 {
+	color: white;
+	position: absolute;
+	margin-top: 10%;
+	margin-left: 25%;
+	font-size: 22px;
+	text-shadow: 1px 1px black;
+}
+
+.title-block2 {
+	font-size: 20px;
+	text-align: center;
+	margin-left: 8%;
+}
+
+.title-block3 {
+	margin-left: 15%;
+}
+
+#done {
+	position: absolute;
+	top: 55%;
+	left: 45%;
+	width: 50px;
+}
+
+#result-b {
+	color: white;
+	position: relative;
+	top: 35%;
+	left: 15%;
+	font-size: 20px;
+	text-shadow: 1px 1px black;
+}
+
+#res_but {
+	position: absolute;
+	top: 65%;
+	left: 37%;
+	width: 75px;
+	height: 30px;
+	border-radius: 5px;
+	opacity: 0;
+}
+ 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	  <link rel="stylesheet" href="css/normalize.css">
+
+	<link rel="stylesheet" href="css/style.css">
+   	<link rel="stylesheet" href="css/styleMain.css">
+   	<link rel="stylesheet" href="css/cars.css">
+   	
+	<script src="js/cars-object.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script src="js/nav.js"></script>
+
+	   
+	
+	<title>Homework AddNewCar</title>
+</head>
+<body >
+<div id="container">
+<div id="sidebar">
+	 <div id="title">HOMEWORKS</div>
+		<ul id="myNav">
+        <li><a href="#">All Items</a>
+          <ul>
+          	<li><a href="#">Item 1</a></li>
+          	<li><a href="#">Item 2</a></li>
+          	<li><a href="#">Item 3</a></li>
+          	<li><a href="#">Item 4</a></li>
+          </ul>
+        </li>
+        </ul>
+     
+	 </div>
+	 <div class="carss">
+ <div class="infoCar"><h2>Cars Info</h2></div>
+ <div id="cars"></div>
+ 
+  <div id="addCar">
+       <div id="sort" onclick="showSort()" >Without sorting </div>
+       <ul id="sorting-list"  >
+       	<li   onclick="sortBy('brand')">By Brand</li>
+       	<li   onclick="sortBy('year')">By Year</li>
+       	<li   onclick="sortBy('maxSpeed')">By Speed</li>
+       </ul>
+       
+		<input type="text" id="carInfo" class="newCar" placeholder="brand, year, maxSpeed, color">
+		<button id="addNewCar" onclick="addCar()">Add</button>
+	 
+	</div>
+	</div>
+	</div>
+	<script src="js/mine.js"></script>
+</body>
+</html>
