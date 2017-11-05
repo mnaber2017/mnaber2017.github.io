@@ -54,12 +54,6 @@ xmlhttp.send();
 	
 	
 })();
- function clearUrl(){
-	 $(this).css.display="block";
-	 
-	 
-	 
- }
-
+ 
 
 
