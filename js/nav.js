@@ -6,7 +6,7 @@ $(document).ready(function () {
 	$("#sidebar > #myNav > li > ul").slideUp(500);
 	$(this).next().slideToggle(500);	
 	$("#sidebar > #myNav > li > a").removeClass("active");
-	$(this).addClass("link active");
+	$(this).addClass("active");
 /*	 $.cookie("select_cat", $(this).attr("class"));		*/	 
 	} 
 		else {
