@@ -35,12 +35,12 @@
   			 "title" : "Homework <br> (BrowserSize)"
 	   },
   		{
-  			 "href" : "#",
-  			 "title" : "Homework 2"
+  			 "href" : "mytoggle.html?homework=Homework(MyToggle)",
+  			 "title" : "Homework <br> (MyToggle)"
 	   },
   		{
-  			 "href" : "#",
-  			 "title" : "Homework 3"
+  			 "href" : "https://nabermi17m.000webhostapp.com/",
+  			 "title" : "Homework <BR>(Select&DB)"
 	   },
   		{
   			 "href" : "#",

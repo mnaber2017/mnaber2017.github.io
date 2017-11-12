@@ -20,10 +20,10 @@ function videoDone()
   document.getElementById('status').innerHTML ='Loading '+stat+" %";
   document.getElementById('status_bar').style.width=w+'px';
       if(n==video.length)
-		  { setTimeout(function(){document.getElementById("preloader").style.opacity='0';
+		  { document.getElementById("preloader").style.opacity='0';
 		document.getElementById("preloader").style.zIndex='0';
 	    document.getElementById('status_bar').style.display= "none";
-		stat.innerHTML='';},700);
+		stat.innerHTML='';
 		
 		  }
 }
