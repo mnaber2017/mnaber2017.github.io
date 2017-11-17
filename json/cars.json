@@ -28,7 +28,7 @@
   "model":"A10",
   "year": "2015",
   "maxSpeed": "270",
-  "color" : "orange"
+  "color" : "red"
 },
 { "brand": "Alfa Romeo" ,
  "model":"A12",
@@ -40,7 +40,7 @@
   "model":"A3",
   "year": "2015",
   "maxSpeed": "270",
-  "color" : "orange"
+  "color" : "green"
 },
     { "brand": "Audi" ,
   "model":"R3",
