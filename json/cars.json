@@ -45,7 +45,7 @@
     { "brand": "Audi" ,
   "model":"R3",
   "year": "2015",
-  "maxSpeed": "270",
+  "maxSpeed": "280",
   "color" : "orange"
 }
 
