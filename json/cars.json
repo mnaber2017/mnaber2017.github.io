@@ -1,26 +1,49 @@
 {
 "info":[
 { "brand":"Toyota",
+  "model":"Camry",
   "year":"2010",
   "maxSpeed": "200",
   "color" : "red"
 },
 { "brand": "Reno",
+   "model":"Logan",
   "year": "2015", 
   "maxSpeed": "190",
   "color" : "green"
 },
 { "brand": "Fiat",
+  "model":"X5",
   "year": "2017", 
   "maxSpeed": "300",
   "color" : "brown"
 },
 { "brand": "Land Rover",
+  "model":"Silver Eye",
   "year": "2000",
   "maxSpeed": "320",
   "color" : "grey"
 },
 { "brand": "Alfa Romeo" ,
+  "model":"A10",
+  "year": "2015",
+  "maxSpeed": "270",
+  "color" : "orange"
+},
+{ "brand": "Alfa Romeo" ,
+ "model":"A12",
+  "year": "2015",
+  "maxSpeed": "270",
+  "color" : "orange"
+},
+{ "brand": "Audi" ,
+  "model":"A3",
+  "year": "2015",
+  "maxSpeed": "270",
+  "color" : "orange"
+},
+    { "brand": "Audi" ,
+  "model":"R3",
   "year": "2015",
   "maxSpeed": "270",
   "color" : "orange"
