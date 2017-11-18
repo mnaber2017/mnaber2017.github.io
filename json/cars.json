@@ -57,7 +57,7 @@
   "year": "2015",
   "maxSpeed": "370",
   "color" : "red",
-  "img":"mnaber2017.github.io/json/carsImg/alfa-romeo-stelvio.jpg",
+  "img":"http://mnaber2017.github.io/json/carsImg/alfa-romeo-stelvio.jpg",
   "price":"81000"
 },
 {"id":"7", 
