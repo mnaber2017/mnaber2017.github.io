@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework Cars</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrap">
+  <header>
+    <div id="logo">AUTO<span class="tred">STORE</span></div></header>
+    <div id="info">
+    <aside id="sidebar">
+      <select id="cars"  onchange="showModelsColor(this.value)" >
+        <option value="">Select brand:</option>	
+      </select>
+      <select id="models" onchange="showModel(this.value)">
+   	    <option>Select model:</option>
+   	
+   	     <!-------CAR-MODELS----------->
+      </select>
+      <select  id="carColor" onchange="showColor(this.value)">
+   	    <option value="">Select color:</option>
+   	     <!--------CAR COLORS------------------>
+   	 	
+      </select>
+	
+     </aside>
+  <div id="content"> <!----------------CARS OUTPUT FROM JSON------------></div>
+     </div>
+  <footer> </footer> 	
+</div>	
+<script src="js/main.js"></script>					
+</body>
+</html>

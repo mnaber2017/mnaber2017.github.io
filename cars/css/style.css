@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #1D1F21;
+}
+#demo{
+	width: 400px;
+}
+#wrap{
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 1px 1px 10px white;
+	
+}
+#info{
+	background-color: #8C97A9;
+    overflow: hidden;
+}
+header{
+	width: 1000px;
+	position: relative;
+	height: 200px;
+	background-color: #FFF2A9;
+	box-shadow: 1px 1px 10px black;
+	
+}
+#sidebar{
+	width: 200px;
+    box-shadow:1px 1px 10px lightgray;
+	border-bottom-right-radius: 10px;
+	height: 500px;
+	float: left;
+	background-color: #CCE4B6;
+}
+#content{
+	width: 798px;
+	height: auto;
+    float: left;
+	background-color: #8C97A9;
+	
+}
+footer{
+	height: 120px;
+	clear: both;
+	background-color: #FFF2A9;
+}
+#carColor,
+#models{
+	display: none;
+}
+#logo{
+	font-size: 42px;
+	position: absolute;
+	top: 30%;
+	left: 33%;
+	color:white;
+	text-shadow: 1px 1px black;
+	
+	
+}
+.tred{
+	color:red;
+	text-shadow: 1px 1px black;
+}
+/*-------------------OUTPUT---------------------------*/
+.carN{
+   overflow: hidden;
+	width: 95%;
+	 box-shadow: 1px 1px 10px white;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 15px;
+	background-color: aliceblue;
+	border-radius: 10px;
+	transition: all 0.15s ease-out 0.05s;
+	 
+
+}
+.carN:hover{
+	background-color: #9ADEF1;
+	transform: scale(1.05,1.05);
+	cursor: pointer;
+	 
+}
+.carN:last-child{
+	margin-bottom: 30px;
+}
+.imgCar{
+	width: 350px;
+	height: 200px;
+	float: right;
+	 margin-right: 7px;
+	margin-bottom: 15px;
+	
+    
+}
+.description{
+	width: 50%;
+	display: block;
+    float: right;
+	margin-top: 26px;
+	color:black;
+	text-shadow: lighgray;
+	box-sizing: border-box;
+	padding: 5px;
+}
+/*---------------------INPUT-STYLES------------------------*/
+#cars,
+#models,
+#carColor{
+	width: 150px;
+	margin-top: 15px;
+	margin-left: 25px;
+	padding-left: 5px;
+	border-radius: 5px;
+	border: 1px solid grey;
+    background:lightgray;
+	text-shadow: 1px 1px white;
+}
+#cars:hover,
+#models:hover,
+#carColor:hover{
+	box-shadow: 1px 1px 10px orange;
+}
+.titleCar{
+	float: left;
+	margin-left: 15px;
+	font-size: 22px;
+	text-shadow: 1px 1px lightgray;
+	color:black;
+	text-shadow: 1px 1px lightgray;
+}

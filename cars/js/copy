@@ -1,0 +1,36 @@
+for(let i in cars.info)
+ {// console.log(i);
+  /*--------CREATE BLOCK---------------*/
+	var block=document.createElement('div');
+	block.classList.add("carN");
+	 block.style.height="auto";
+	contentLink.appendChild(block);
+  
+  /*-----------------------------------*/
+    /*----------------BLOCK-TITLE----------------*/
+  var title=document.createElement('p');
+  title.innerText=cars.info[i]["brand"]+' '+cars.info[i]["model"];
+  title.classList.add("titleCar");
+  block.appendChild(title);
+  
+  
+  
+  /*----------------BLOCK-TITLE----------------*/
+ /*----------------BLOCK-DESCRIPTION-----------*/
+  var description=document.createElement('div');
+  description.classList.add("description");
+  description.innerText=cars.info[i]["description"];
+  block.appendChild(description);
+  /*----------------BLOCK-DESCRIPTION-----------*/
+  /*----------------BLOCK-IMAGES----------------*/
+  var imgCar=document.createElement('img');
+  imgCar.src=cars.info[i]["img"];
+  imgCar.classList.add("imgCar");
+  block.appendChild(imgCar);
+  
+  /*----------------BLOCK-IMAGES----------------*/
+
+
+  
+  
+ }
